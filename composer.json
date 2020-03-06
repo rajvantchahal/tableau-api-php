@@ -1,0 +1,25 @@
+{
+  "name": "rajvantchahal/tableau-api-php",
+  "description" : "A library that allows integration with the Tableau API.",
+  "type" : "library",
+  "license": "MIT",
+  "keywords" : [
+    "tableau", "Tableau API", "Tableau API PHP"
+  ],
+  "homepage" : "https://github.com/rajvantchahal/tableau-api-php",
+  "authors" : [
+    {
+      "name" : "Rajvant Chahal",
+      "email" : "chahal.rajvant.onclick@gmail.com"
+    }
+  ],
+  "require" : {
+    "php": ">=5.3.3",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "rajvantchahal\\TableauAPI\\": "src"
+    }
+  }
+}
