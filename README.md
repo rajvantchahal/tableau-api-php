@@ -10,6 +10,6 @@ require 'vendor/autoload.php';
 
 use rajvantchahal\TableauAPI\TableauAPI;
 
-$tableauAPI = new TableauAPI(<URL>, <USERNAME>, <PASSWORD>, <SITENAME>);
+$tableauAPI = new TableauAPI('URL, 'USERNAME, 'PASSWORD, 'SITENAME);
 
 $login = $tableauAPI->signIn();
